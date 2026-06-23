@@ -1,6 +1,6 @@
 # NRI Construction & Fabrication
 
-![NRI Construction & Fabrication](public/logos/logo.png)
+![NRI Construction & Fabrication](public/logos/logo-white.png)
 
 A modern, high-performance web application for **NRI Construction & Fabrication**, an Australian owned and fully integrated development, construction, and property maintenance contractor. 
 
