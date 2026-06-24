@@ -14,7 +14,7 @@ const TABS = [
     title: "One Point Of Contact & Reliable Communication",
     description: "We simplify your project with a single dedicated project manager handling all trades and services. Expect transparent updates, clear timelines, and open lines of communication throughout the entire process.",
     icon: <UserCheck className="w-10 h-10" />,
-    image: "/images/hero/hero1.jpg",
+    image: "/images/why-choose/image1.jpg",
   },
   {
     id: "services",
@@ -22,7 +22,7 @@ const TABS = [
     title: "Multiple Trades & Fabrication Under One Roof",
     description: "From plumbers and electricians to builders and landscapers, our in-house team does it all. Our integrated fabrication workshop means faster turnaround times for bespoke structural elements.",
     icon: <Layers className="w-10 h-10" />,
-    image: "/images/hero/hero2.jpg",
+    image: "/images/why-choose/image2.jpg",
   },
   {
     id: "scope",
@@ -30,7 +30,7 @@ const TABS = [
     title: "End-to-End Management for Any Scale",
     description: "We provide scaled solutions tailored for both luxury residential homes and large commercial properties. We handle everything from planning and permits to execution and final handover.",
     icon: <Building2 className="w-10 h-10" />,
-    image: "/images/hero/hero3.jpg",
+    image: "/images/why-choose/image3.jpg",
   },
 ];
 

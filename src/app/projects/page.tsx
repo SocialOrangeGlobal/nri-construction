@@ -9,63 +9,63 @@ import Link from "next/link";
 const projects = [
   {
     id: "p1",
-    title: "Modern Luxury Build",
+    title: "Luxury Residence Build",
     category: "Construction",
     location: "Sydney, NSW",
-    image: "/images/construction.jpg",
+    image: "/images/projects/luxary-residences.jpg",
   },
   {
     id: "p2",
-    title: "Commercial HQ Fit-out",
+    title: "Commercial Development",
     category: "Commercial",
     location: "Parramatta, NSW",
-    image: "/images/commercial.jpg",
+    image: "/images/projects/commercial-developments.jpg",
   },
   {
     id: "p3",
-    title: "Heritage Villa Renovation",
-    category: "Renovation",
+    title: "Custom Villa Construction",
+    category: "Construction",
     location: "Bondi, NSW",
-    image: "/images/renovation.jpg",
+    image: "/images/projects/custom-villas.jpg",
   },
   {
     id: "p4",
-    title: "Premium Outdoor & Pool",
-    category: "Outdoor Works",
+    title: "Complete Home Renovation",
+    category: "Renovation",
     location: "Manly, NSW",
-    image: "/images/outdoor-works.jpg",
+    image: "/images/projects/home-renovations.jpg",
   },
   {
     id: "p5",
-    title: "Structural Steel Framework",
+    title: "Structural Steel Fabrication",
     category: "Fabrication",
     location: "Wetherill Park, NSW",
-    image: "/images/fabrication.jpg",
+    image: "/images/projects/steel-fabrications.jpg",
   },
   {
     id: "p6",
-    title: "Integrated Trade Overhaul",
-    category: "Maintenance",
+    title: "Premium Outdoor Living",
+    category: "Outdoor Works",
     location: "North Sydney, NSW",
-    image: "/images/trade-services.jpg",
+    image: "/images/projects/outdoor-livings.jpg",
   },
   {
     id: "p7",
-    title: "Retail Store Build",
-    category: "Commercial",
+    title: "Luxury Pool Construction",
+    category: "Pools",
     location: "Chatswood, NSW",
-    image: "/images/retail-store.jpg",
+    image: "/images/projects/pool-constructions.jpg",
   },
   {
     id: "p8",
-    title: "High-Rise Apartment Block",
-    category: "Construction",
+    title: "Residential Landscaping",
+    category: "Landscaping",
     location: "Sydney CBD",
-    image: "/images/apartment-block.jpg",
+    image: "/images/projects/residential-landscapings.jpg",
   },
 ];
 
-const categories = ["All", "Construction", "Commercial", "Fabrication", "Renovation", "Outdoor Works", "Maintenance"];
+const categories = ["All", "Construction", "Commercial", "Renovation", "Fabrication", "Outdoor Works", "Pools", "Landscaping", "Electrical", "Plumbing", "Maintenance"];
 
 export default function ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState("All");

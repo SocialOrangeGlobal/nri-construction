@@ -12,10 +12,10 @@ export default function AboutPage() {
       <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-nri-navy dark:bg-background text-white relative overflow-hidden">
         {/* Abstract background */}
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-nri-orange/5 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3 pointer-events-none" />
-        
+
         <div className="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
           <div className="max-w-4xl">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               className="flex items-center gap-4 mb-4 md:mb-6"
@@ -25,8 +25,8 @@ export default function AboutPage() {
                 Who We Are
               </p>
             </motion.div>
-            
-            <motion.h1 
+
+            <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
@@ -34,8 +34,8 @@ export default function AboutPage() {
             >
               About <span className="text-nri-orange">NRI</span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -52,7 +52,7 @@ export default function AboutPage() {
         <div className="absolute top-24 right-0 w-1/3 h-2/3 bg-gray-50 dark:bg-slate-900/50 rounded-l-[3rem] -z-10" />
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
           <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 items-center">
-            
+
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -69,28 +69,28 @@ export default function AboutPage() {
                 Built on a simple <br className="hidden md:block" />
                 <span className="text-gray-400 dark:text-gray-600">philosophy.</span>
               </h2>
-              
+
               <div className="relative">
                 <span className="absolute top-0 left-0 text-5xl md:text-6xl font-serif text-nri-orange leading-none -ml-3 -mt-2 opacity-20">F</span>
                 <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400 font-body leading-relaxed mb-4 md:mb-5 pl-4 relative z-10">
                   ounded on the principle that property projects shouldn't be stressful, NRI Construction & Fabrication was built to bring every trade under one roof.
                 </p>
               </div>
-              
+
               <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 font-body leading-relaxed mb-4 md:mb-5">
                 We saw the frustration clients faced when dealing with multiple contractors, misaligned schedules, and budget blowouts. Our solution was simple: build a single, elite team capable of handling everything.
               </p>
-              
+
               <p className="text-sm md:text-base text-nri-navy dark:text-white font-bold leading-relaxed border-l-2 border-nri-orange pl-5 py-2 my-4 md:my-6 italic">
                 "From initial architectural planning and structural fabrication to the final coat of paint and ongoing maintenance."
               </p>
-              
+
               <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 font-body leading-relaxed">
                 Today, we are proud to be the trusted partner for hundreds of residential and commercial property owners across Australia, setting the benchmark for integrated property solutions.
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -98,26 +98,26 @@ export default function AboutPage() {
               className="w-full lg:w-1/2 relative"
             >
               <div className="relative aspect-[4/5] md:aspect-square lg:aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl">
-                <Image 
-                  src="/images/construction.jpg" 
-                  alt="NRI Team at work" 
-                  fill 
-                  sizes="(max-width: 768px) 100vw, 50vw" 
-                  className="object-cover" 
+                <Image
+                  src="/images/about/main.jpg"
+                  alt="NRI Team at work"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
                 />
               </div>
               {/* Overlapping smaller image for premium magazine feel */}
               <div className="absolute -bottom-12 -left-12 w-64 aspect-square rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white dark:border-background hidden md:block">
-                <Image 
-                  src="/images/fabrication.jpg" 
-                  alt="NRI Fabrication" 
-                  fill 
-                  sizes="250px" 
-                  className="object-cover" 
+                <Image
+                  src="/images/about/small.jpg"
+                  alt="NRI Fabrication"
+                  fill
+                  sizes="250px"
+                  className="object-cover"
                 />
               </div>
             </motion.div>
-            
+
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function AboutPage() {
               { icon: <Target className="w-7 h-7" />, title: "Client First", desc: "Your vision is our priority. We communicate transparently and deliver on our promises." },
               { icon: <Users className="w-7 h-7" />, title: "Unified Teamwork", desc: "One team working in harmony means faster delivery and cohesive results." }
             ].map((value, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <MapPin className="w-6 h-6 md:w-8 md:h-8 text-nri-orange" />
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-nri-navy dark:text-white tracking-tight leading-tight mb-4 md:mb-6">
-            Proudly Servicing <br/> Australia
+            Proudly Servicing <br /> Australia
           </h2>
           <p className="text-base md:text-xl text-gray-600 dark:text-gray-400 font-body leading-relaxed mb-8 md:mb-10">
             While based in Sydney, NSW, our capabilities and reach extend to major commercial and high-end residential projects across the region.

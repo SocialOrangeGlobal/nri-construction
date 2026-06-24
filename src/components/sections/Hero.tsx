@@ -113,7 +113,7 @@ export default function Hero() {
       </div>
 
       {/* Brand Color Overlay Gradient */}
-      <div className="absolute inset-0 z-10 bg-gradient-to-r from-nri-navy/95 via-nri-navy/70 to-nri-navy/40" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-br from-nri-navy/80 via-nri-navy/40 to-nri-navy/10" />
       <div className="absolute inset-0 z-10 bg-black/20" />
 
       {/* Slide Content */}
